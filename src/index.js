@@ -3,19 +3,19 @@ import { home } from "./home"
 import { menu } from "./menu";
 import { contact } from "./contact";
 
-contact();
+home();
 const homeButton = document.querySelector(".homeButton");
 const menuButton = document.querySelector(".menuButton");
 const contactButton = document.querySelector(".contactButton");
 
 homeButton.addEventListener("click", ()=>{
-    home()
+    home();
 });
 
 menuButton.addEventListener("click", ()=>{
-    menu()
+    menu();
 });
 
 contactButton.addEventListener("click", ()=>{
-    contact()
+    contact();
 });
