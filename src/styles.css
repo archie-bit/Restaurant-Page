@@ -148,7 +148,7 @@ header{
 }
 
 .menuSide{
-    background-color: var(--color-for-background);
+    background-image: linear-gradient(225deg, var(--color-for-background), #426163 60%);
     grid-column: 1;
     grid-row: 1;
 }
